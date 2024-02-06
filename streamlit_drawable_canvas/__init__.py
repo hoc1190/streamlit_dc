@@ -127,7 +127,6 @@ def st_canvas(
         # always send relative URLs, the frontend handles this
         if background_image_url[0] == '/':
             background_image_url = background_image_url[1:]
-        print("aaaa", background_image_url)
         background_color = ""
 
     # Clean initial drawing, override its background color
